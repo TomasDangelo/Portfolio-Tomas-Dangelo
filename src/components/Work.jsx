@@ -11,7 +11,7 @@ const Work = () => {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
             Mis trabajos
           </p>
-          <p className='py-6'>Estos son algunos de los proyectos que realicé</p>
+          <p className='py-6'>Estos son algunos de los proyectos que realicé. Aguamerica fue mi primer proyecto, el cual hice para el curso de Desarrollo Web. Ruth Pastelería mi segundo proyecto, y está hecho con JavaScript. TOM'S Store fue el tercero; está hecho con ReactJS. Si bien el diseño es mejorable en todos mis proyectos, lo central de los cursos fue la funcionalidad. Además, en este momento estoy trabajando en nuevos proyectos con ReactJS para adquirir experiencia. </p>
         </div>
 
 {/* Container */}
@@ -22,8 +22,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-grey tracking-wider'>
-                Proyecto de Desarrollo Web
-              </span>
+                    </span>
               <div className='pt-8 text-center'>
                 <a target={"blamk"} href='https://aguamerica-tomas-d-angelo.vercel.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
@@ -45,7 +44,6 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-black tracking-wider'>
-                Proyecto para JavaScript
               </span>
               <div className='pt-8 text-center'>
                 <a target={"blank"} href='https://ruthcarrito.vercel.app/'>
@@ -69,7 +67,6 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-black tracking-wider'>
-                Proyecto para React JS 
               </span>
               <div className='pt-8 text-center'>
                 <a target={"blank"} href='https://productos-tomasdangelo.vercel.app/'>
