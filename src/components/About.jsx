@@ -14,7 +14,7 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <p>Hola! Soy Tomás, gracias por visitar mi portfolio.</p>
+              <p>Hola! Soy Tomás, gracias por visitar mi página.</p>
             </div>
             <div>
               <p>Me fascina la tecnología y ultimamente estoy dedicando mi tiempo a aprender sobre programación. Creo que en la actualidad la tecnología es indispensable para nuestras vidas, por lo que decidí empezar a aprender cómo trabajar con ella.  </p>  
