@@ -2,7 +2,7 @@ import React from 'react';
 import Aguamerica from '../assets/logo-aguamerica.jpg';
 import Ruth from '../assets/logo-ruth.jpg'
 import Toms from '../assets/logo-toms.png'
-
+import Clima from '../assets/clima-hoy.png'
 const Work = () => {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f] pb-44'>
@@ -83,7 +83,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(https://i0.wp.com/enlacelatinonc.org/wp-content/uploads/2022/04/El-Clima-hoy.jpg?fit=1200%2C676&ssl=1)` }}
+            style={{ backgroundImage: `url(${Clima})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
