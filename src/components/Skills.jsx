@@ -4,7 +4,7 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Typescript from '../assets/Typescript.svg.png'
-
+import Node from '../assets/node.png';
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
@@ -35,6 +35,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Typescript} alt="HTML icon" />
                   <p className='my-4'>TYPESCRIPT</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
+                  <p className='my-4'>NODE JS</p>
               </div>
           </div>
       </div>
