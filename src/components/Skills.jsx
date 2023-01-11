@@ -3,7 +3,7 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import Typescript from '../assets/typescript.jpg'
+import Typescript from '../assets/Typescript.svg.png'
 
 const Skills = () => {
   return (
