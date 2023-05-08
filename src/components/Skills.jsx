@@ -7,8 +7,7 @@ import Nodejs from '../assets/node.jpg';
 import csharp from '../assets/Csharp.png';
 import asp from '../assets/asp.png';
 import cobol from '../assets/cobol.png';
-
-
+import Typescript from '../assets/Typescript.svg.png'
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
@@ -51,6 +50,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={cobol} alt="HTML icon" />
                   <p className='my-4'>COBOL</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Typescript} alt="HTML icon" />
+                  <p className='my-4'>TYPESCRIPT</p>
               </div>
           </div>
       </div>
