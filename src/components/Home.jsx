@@ -9,15 +9,11 @@ const Home = () => {
             <p className='text-pink-600 font-bold text-3xl pt-16'>Hola, mi nombre es</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Tomás D'Angelo</h1>
             <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>Soy Frontend Developer</h2>
-<<<<<<< HEAD
             <p className='py-4 max-w-[700px] text-[#8892b0]'>Soy Licenciado en Relaciones Internacionales, 
               pero mi pasión por el aprendizaje me llevó a iniciar mi camino como developer en 2022. 
                Realicè el curso de Full Stack Developer en Coderhouse, donde aprendí tanto Frontend con HTML,CSS,JS y React, como Backend con Node.
                Continuè apreniendo por mi cuenta programación backend con C# y .NET. Finalmente, decidí iniciar la carrera de 
                Ingeniería en sistemas en la Universidad Tecnológica Nacional, donde aprendí Python. 
-=======
-            <p className='py-4 max-w-[700px] text-[#8892b0]'>Soy Licenciado en Relaciones Internacionales, pero mi pasión por el aprendizaje me llevó a iniciar mi camino como developer en 2022. Finalicé el curso de Full Stack Web Developer de Coderhouse en abril, el cual duró un año. Sin embargo, a pesar de que JavaScript me parece maravilloso, decidí ampliar mis conocimientos hacia otros lenguajes y comenzar a aprender  C# por mi cuenta, lo cual también me fascinó. Ya conozco sobre C# nativo, Blazor, y ASP.NET MVC. Además, estoy cursando el programa "Cobol Developer Junior" que ofrece la Universidad de Buenos Aires.
->>>>>>> 3e112e96d2f1e038cbd5bfbd2f1894ede2358a89
             </p>
         <div>
             <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
