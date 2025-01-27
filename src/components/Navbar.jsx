@@ -99,7 +99,11 @@ const Navbar = () => {
             </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fd7b47e0]'>
+<<<<<<< HEAD
             <a className='flex justify-between font-bold items-center w-full text-gray-300' target={"blank"} href="https://drive.google.com/drive/folders/18qgqHpnZpPgY2CltQgPZ4jv9Ry7hOowB?q=sharedwith:public%20parent:18qgqHpnZpPgY2CltQgPZ4jv9Ry7hOowB">
+=======
+            <a className='flex justify-between font-bold items-center w-full text-gray-300' target={"blank"} href="https://drive.google.com/drive/folders/1oAzLY5wjjC9HSKKgPMDW6EaHQ3pjE_TO?usp=sharing">
+>>>>>>> 3e112e96d2f1e038cbd5bfbd2f1894ede2358a89
                 CV <BsFillPersonLinesFill size={30}/>
             </a>
         </li>

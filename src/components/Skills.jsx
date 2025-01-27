@@ -3,8 +3,11 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
+import Nodejs from '../assets/node.jpg';
+import csharp from '../assets/Csharp.png';
+import asp from '../assets/asp.png';
+import cobol from '../assets/cobol.png';
 import Typescript from '../assets/Typescript.svg.png'
-import Node from '../assets/node.png';
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
@@ -33,12 +36,24 @@ const Skills = () => {
                   <p className='my-4'>REACT JS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Typescript} alt="HTML icon" />
-                  <p className='my-4'>TYPESCRIPT</p>
+                  <img className='w-20 mx-auto' src={Nodejs} alt="HTML icon" />
+                  <p className='my-4'>NODE JS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
-                  <p className='my-4'>NODE JS</p>
+                  <img className='w-20 mx-auto' src={csharp} alt="HTML icon" />
+                  <p className='my-4'>C#</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={asp} alt="HTML icon" />
+                  <p className='my-4'>ASP.NET</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={cobol} alt="HTML icon" />
+                  <p className='my-4'>COBOL</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Typescript} alt="HTML icon" />
+                  <p className='my-4'>TYPESCRIPT</p>
               </div>
           </div>
       </div>
