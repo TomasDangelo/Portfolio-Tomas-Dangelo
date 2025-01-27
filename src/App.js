@@ -4,16 +4,18 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import { LanguageProvider } from "./components/context/languageContext";
+
 function App() {
   return (
-    <div>
+    <LanguageProvider>
       <Navbar></Navbar>
       <Home></Home>
       <About></About>
       <Skills></Skills>
       <Work></Work>
       <Contact></Contact>
-    </div>
+    </LanguageProvider>
   );
 }
 
