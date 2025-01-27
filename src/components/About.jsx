@@ -17,7 +17,7 @@ const About = () => {
               <p>Hola! Soy Tomás, gracias por visitar mi página.</p>
             </div>
             <div>
-              <p>Me fascina la tecnología y ultimamente estoy dedicando mi tiempo a aprender sobre programación. Creo que en la actualidad la tecnología es indispensable para nuestras vidas, por lo que decidí empezar a aprender cómo trabajar con ella.  </p>  
+              <p>Aunque soy Licenciado en Relaciones Internacionales, también me fascina la tecnología y decidí dar un giro y dedicar mi tiempo para en un futuro ser profesional en programación. Creo que en la actualidad la tecnología es indispensable para nuestras vidas, por lo que decidí empezar a aprender cómo trabajar con ella.  </p>  
             </div>
           </div>
       </div>
