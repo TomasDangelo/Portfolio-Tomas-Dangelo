@@ -18,7 +18,7 @@ const Work = () => {
              {language === 'spanish'? 'Mis trabajos' : 'My work' }
           </p>
              
-          <p className='py-6'>{language === 'spanish' ? 'Estos son algunos de los proyectos que realicé. Aguamerica fue mi primer proyecto, el cual hice para el curso de Desarrollo Web. Ruth Pastelería mi segundo proyecto, y está hecho con JavaScript. TOM\'S Store fue el tercero; está hecho con ReactJS. Weather App es el cuarto; es un proyecto hecho con ReactJS, que obtiene datos del clima a través de una API para mostrarlo a los usuarios. El quinto, "TD", es un proyecto sencillo que cree para mostrar las funcionalidades CRUD desde el backend, utilizando SQL Server como database, ASP.NET y React.js en el front. Si bien el diseño es mejorable en todos mis proyectos, lo central de los cursos fue la funcionalidad. Además, en este momento estoy trabajando en nuevos proyectos con ReactJS para adquirir experiencia.' : 'These are some of the projects I have worked on. Aguamerica was my first project, created for the Web Development course. Ruth Pastelería was my second project, built with JavaScript. TOM\'S Store was the third; it was made with ReactJS. Weather App is the fourth, a ReactJS project that fetches weather data through an API to display it to users. The fifth, "TD," is a simple project I built to showcase CRUD functionalities from the backend, using SQL Server as the database and ASP.NET with React.js for the front end. While the design can be improved in all my projects, the courses primarily focused on functionality. I am also currently working on new projects with ReactJS to gain more experience.' }
+          <p className='py-6'>{language === 'spanish' ? 'Estos son algunos de los proyectos que realicé. Ruth Pastelería es mi proyecto más reciente (2025) para una clienta, por lo que el código es privado. Es un ecommerce serverless (con Vercel functions) hecho con ReactJS que cuenta con un panel de administrador para manejar los productos. Aguamerica fue mi primer proyecto, el cual hice para el curso de Desarrollo Web.  TOM\'S Store fue el segundo; es un ecommerce hecho con ReactJS. Weather App es el terero; es un proyecto hecho con ReactJS, que obtiene datos del clima a través de una API para mostrarlo a los usuarios. Si bien el diseño es mejorable en todos mis proyectos, lo central de los cursos fue la funcionalidad. Además, en este momento estoy trabajando en nuevos proyectos con ReactJS para adquirir experiencia.' : 'These are some of the projects I have worked on. Aguamerica was my first project, created for the Web Development course. Ruth Pastelería is my most recent Project (2025) for a client, which is why the code is private. It is a serverless ecommerce built with React JS. It includes an admin panel to handle the products. TOM\'S Store was the second; it was made with ReactJS. Weather App is the third, a ReactJS project that fetches weather data through an API to display it to users.  While the design can be improved in all my projects, the courses primarily focused on functionality. I am also currently working on new projects with ReactJS to gain more experience.' }
           </p>
         </div>
 
@@ -54,14 +54,14 @@ const Work = () => {
               <span className='text-2xl font-bold text-black tracking-wider'>
               </span>
               <div className='pt-8 text-center'>
-                <a target={"blank"} href='https://ruthcarrito.vercel.app/'>
+                <a target={"blank"} href='https://ruthpasteleria.vercel.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a target={"blank"} href='https://github.com/TomasDangelo/Ruth'>
+                <a target={"blank"} href='https://github.com/TomasDangelo/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Código
+                    Código (privado)
                   </button>
                 </a>
               </div>
